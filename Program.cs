@@ -45,6 +45,13 @@ namespace MergeSortExercise
             }
         }
         static void Main(string[] args)
-        { }
+        {
+            Console.Write("\nProgram for sorting a numeric array using Merge Sorting");
+            Console.Write("\n\nEnter number of elements: ");
+            int max = Convert.ToInt32(Console.ReadLine());
+            int[] numbers = new int[max];
+            for (int i = 0; i < max; i++)
+            { }
+        }
     }
 }
