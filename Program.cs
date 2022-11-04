@@ -44,5 +44,7 @@ namespace MergeSortExercise
                 MainMerge(numbers, left, (mid + 1), right);
             }
         }
+        static void Main(string[] args)
+        { }
     }
 }
