@@ -23,6 +23,15 @@ namespace MergeSortExercise
                 else
                     temp[pos++] = numbers[mid++];
             }
+            while (left <= eol)
+                temp[pos++] = numbers[left++];
+            while (mid <= right)
+                temp[pos++] = numbers[mid++];
+            for (i = 0; i < num; i++)
+            {
+                numbers[right] = temp[right];
+                right--;
+            }
         }
     }
 }
