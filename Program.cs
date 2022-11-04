@@ -55,6 +55,13 @@ namespace MergeSortExercise
                 Console.Write("\nEnter for sorting anumeric array using merge sorting: ");
                 numbers[i] = Convert.ToInt32(Console.ReadLine());
             }
+            Console.Write("Input int array : ");
+            Console.Write("\n");
+            for (int k = 0; k < max; k++)
+            {
+                Console.Write(numbers[k] + " ");
+                Console.Write("\n");
+            }
         }
     }
 }
