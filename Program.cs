@@ -33,5 +33,7 @@ namespace MergeSortExercise
                 right--;
             }
         }
+        static public void SortMerge(int[] numbers, int left, int right)
+        { }
     }
 }
