@@ -62,6 +62,11 @@ namespace MergeSortExercise
                 Console.Write(numbers[k] + " ");
                 Console.Write("\n");
             }
+            Console.WriteLine("MergeSort By Recursive Method");
+            SortMerge(numbers, 0, max - 1);
+            for (int i = 0; i < max; i++)
+                Console.WriteLine(numbers[i]);
+            Console.ReadLine();
         }
     }
 }
