@@ -15,6 +15,9 @@ namespace MergeSortExercise
             eol = (mid - 1);
             pos = left;
             num = (right - left + 1);
+
+            while ((left <= eol) && (mid <= right))
+            { }
         }
     }
 }
