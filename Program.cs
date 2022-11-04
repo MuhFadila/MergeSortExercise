@@ -51,7 +51,10 @@ namespace MergeSortExercise
             int max = Convert.ToInt32(Console.ReadLine());
             int[] numbers = new int[max];
             for (int i = 0; i < max; i++)
-            { }
+            {
+                Console.Write("\nEnter for sorting anumeric array using merge sorting: ");
+                numbers[i] = Convert.ToInt32(Console.ReadLine());
+            }
         }
     }
 }
